@@ -2,7 +2,7 @@
 
 
 ```C++
-**analogReadResolution(resolución)**: 
+analogReadResolution(resolución)```: 
 establece los bits de muestra y la resolución. Puede ser un valor entre 9 (0 – 511) y 12 bits (0 – 4095). La resolución predeterminada es de 12 bits.
 
 **analogSetWidth(ancho)**: establece los bits de muestra y la resolución. Puede ser un valor entre 9 (0 – 511) y 12 bits (0 – 4095). La resolución predeterminada es de 12 bits.

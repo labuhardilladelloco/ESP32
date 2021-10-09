@@ -2,7 +2,7 @@
 
 
 ```
-```C
+```C+
 analogReadResolution(resolución)
 ```
 ```

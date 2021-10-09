@@ -1,8 +1,10 @@
 # ENTRADAS ANALÓGICAS ESP32 - DEVKIT V1
 
 
-```C++
-analogReadResolution(resolución): 
+```
+analogReadResolution(resolución)
+```
+: 
 establece los bits de muestra y la resolución. Puede ser un valor entre 9 (0 – 511) y 12 bits (0 – 4095). La resolución predeterminada es de 12 bits.
 
 **analogSetWidth(ancho)**: establece los bits de muestra y la resolución. Puede ser un valor entre 9 (0 – 511) y 12 bits (0 – 4095). La resolución predeterminada es de 12 bits.
@@ -31,4 +33,4 @@ adjunta un pin al ADC (también borra cualquier otro modo analógico que pueda e
 
 **adcStart(pin)**, **adcBusy(pin)** y **resultadcEnd(pin)**:
 inicia una conversión ADC en el bus del pin adjunto. Compruebe si la conversión en el bus ADC del pin se está ejecutando actualmente (devuelve VERDADERO o FALSO). Obtener el resultado de la conversión: devuelve un entero de 16 bits.
-```
+

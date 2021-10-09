@@ -1,7 +1,7 @@
 # ENTRADAS ANALÓGICAS ESP32 - DEVKIT V1
 
 
-```ruby
+```c++
 analogReadResolution(resolución)
 ```
 : 

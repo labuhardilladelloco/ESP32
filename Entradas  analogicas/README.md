@@ -2,10 +2,18 @@
 
 
 ## Funciones Arduino IDE:
+
+
+| Primer encabezado | Segundo encabezado |
+| ------------- | ------------- |
+| Contenido de la celda  | Contenido de la celda  |
+| Contenido de la celda  | Contenido de la celda  |
+
+
 ```c
 analogReadResolution(resolución)
 ``` 
-!! note "Establece los bits de muestra y la resolución. Puede ser un valor entre 9 (0 – 511) y 12 bits (0 – 4095). La resolución predeterminada es de 12 bits."
+Establece los bits de muestra y la resolución. Puede ser un valor entre 9 (0 – 511) y 12 bits (0 – 4095). La resolución predeterminada es de 12 bits.
 
 
 ```c

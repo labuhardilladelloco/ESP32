@@ -16,9 +16,12 @@
 
 | analogSetClockDiv(atenuación) | Establece el divisor para el reloj ADC. El valor predeterminado es 1. Rango: 1 a 255. |
 
-| ```c
-analogSetAttenuation(atenuación)
-``` | Establece el número de ciclos por muestra. El valor predeterminado es 8. Rango: 1 a 255. |
+| analogSetAttenuation(atenuación) | Establece la atenuación de entrada para todos los pines ADC. El valor predeterminado es ADC_0db. 
+Valores aceptados:
+**ADC_0db**: Cuando la tensión de entrada se aproxime a 1 V ,si la resolucion es de 12 bits el valor de lectura llegara al maximo, 4095.
+**ADC_2_5db**: El voltaje de entrada del ADC se atenuará, extendiendo el rango de medición hasta aprox. 1400 mV. (Entrada 1.4V = lectura ADC de rango maximo de 4095).
+**ADC_6db**: El voltaje de entrada del ADC se atenuará, extendiendo el rango de medición hasta aprox. 1920 mV. (Entrada 1.9V = lectura ADC de 4095).
+**ADC_11db**: El voltaje de entrada del ADC se atenuará, extendiendo el rango de medición hasta aprox. 3200 mV. (Entrada aprox 3,2v = lectura ADC de 4095).|
 | analogSetCycles(ciclos) | Establece el número de ciclos por muestra. El valor predeterminado es 8. Rango: 1 a 255. |
 
 

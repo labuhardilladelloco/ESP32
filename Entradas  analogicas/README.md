@@ -10,24 +10,18 @@
 | ------------- | ------------- |
 | **analogReadResolution(resolución)** | Establece los bits de muestra y la resolución. Puede ser un valor entre 9 (0 – 511) y 12 bits (0 – 4095). La resolución predeterminada es de 12 bits.  |
 | analogSetWidth(ancho)  | Establece los bits de muestra y la resolución. Puede ser un valor entre 9 (0 – 511) y 12 bits (0 – 4095). La resolución predeterminada es de 12 bits.  |
+| analogSetCycles(ciclos) | Establece el número de ciclos por muestra. El valor predeterminado es 8. Rango: 1 a 255. |
+
+| analogSetSamples(muestras) | Establece el número de muestras en el rango. El valor predeterminado es 1 muestra. Tiene el efecto de aumentar la sensibilidad. |
+
+| analogSetClockDiv(atenuación) | Establece el divisor para el reloj ADC. El valor predeterminado es 1. Rango: 1 a 255. |
+
+| analogSetCycles(ciclos) | Establece el número de ciclos por muestra. El valor predeterminado es 8. Rango: 1 a 255. |
 
 
 
 
 
-
-
-
-```c
-analogSetCycles(ciclos)
-```
-Establece el número de ciclos por muestra. El valor predeterminado es 8. Rango: 1 a 255.
-
-
-```c
-analogSetSamples(muestras)
-```
-Establece el número de muestras en el rango. El valor predeterminado es 1 muestra. Tiene el efecto de aumentar la sensibilidad.
 
 
 ```c

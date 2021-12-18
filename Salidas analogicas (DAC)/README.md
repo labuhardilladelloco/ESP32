@@ -11,6 +11,9 @@
 | dacWrite(canal, voltaje) | Establece un voltaje en el canal seleccionado. 
 
 
+<img src="/canales.png" alt="duckysim logo"/>
+
+
 
 
 

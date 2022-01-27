@@ -26,7 +26,6 @@ y nos servirá por ejemplo para controlar la intensidad luminosa de una lampara,
 
 
 
-<img src="Conexiones.png" />
 
 
 Ver vídeo:

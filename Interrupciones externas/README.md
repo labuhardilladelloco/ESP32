@@ -22,7 +22,7 @@
 
 
 
-
+<img src="diagrama.png" />
 
 
 https://youtu.be/crVZC4YcakQ

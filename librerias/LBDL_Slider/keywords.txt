@@ -1,0 +1,5 @@
+Slider	KEYWORD1
+setup	KEYWORD2
+detectDirection	KEYWORD2
+getDirection	KEYWORD2
+clearDirection	KEYWORD2

@@ -12,6 +12,6 @@ detectDirection()| Monitoriza la dirección del deslizamiento del slider.
 |getDirection()| Devuelve la dirección del deslizamiento del slider (LEFT/RIGHT).
 |clearDirection()|Resetea la dirección del deslizamiento del slider.
 
-
-
+Explicación:
+https://youtu.be/07b8nKLS_PM?t=701
 

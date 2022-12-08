@@ -26,7 +26,7 @@ Estos pines se pueden integrar fácilmente en almohadillas capacitivas y reempla
 
 
 
-
+<img src="header.png" />
 
 
 
